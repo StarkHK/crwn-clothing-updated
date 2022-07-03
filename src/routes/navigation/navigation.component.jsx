@@ -11,7 +11,7 @@ const Navigation = () => {
 
 	const handleSignOutUser = async () => {
 		const res = await signOutUser();
-		setCurrentUser(null);
+		// setCurrentUser(null);
 	};
 	return (
 		<Fragment>
